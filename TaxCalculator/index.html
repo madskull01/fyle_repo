@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Tax Calculator</h1>
+      <form action="#">
+        
+       
+        <div class="income">
+          <label for="">Enter gross anual income:</label>
+          <i class="fa-solid fa-rupee-sign"></i>
+          <input type="number" placeholder="" class="income-input1" />
+        </div>
+        <div class="income">
+          <label for="">Enter extra income:</label>
+          <i class="fa-solid fa-rupee-sign"></i>
+          <input type="number" placeholder="" class="income-input2" />
+        </div>
+        <div class="income">
+          <label for="">Enter age group:</label>
+          <input type="number" placeholder="" class="income-input3" />
+        </div>
+        <div class="income">
+          <label for="">Enter total applicable deductions:</label>
+          <i class="fa-solid fa-rupee-sign"></i>
+          <input type="number" placeholder="" class="income-input4" />
+        </div>
+        <div class="results">
+          <p>Total Tax Estimated</p>
+          <input type="text" placeholder="$0" class="results-input" />
+        </div>
+        <div class="buttons">
+          <button id="calculate">Calculate</button>
+          <button id="reset">Reset</button>
+        </div>
+      </form>
+    </div>
+
+    <footer>
+      <p>&copy; Rohit Gujarkar | All rights reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
